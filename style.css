@@ -23,7 +23,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    outline: 5px solid white;
+    outline: 4px solid white;
     outline-offset: -18px;
 }
 
@@ -106,6 +106,24 @@ footer {
     font-size: 1.5rem;
 }
 
+@media screen and (max-width: 913px) and
+       (max-height: 1181px) {
+           .clock {
+               width: 50rem;
+           }
+}
+
+
+@media screen and (max-width: 1025px) and 
+        (max-height: 601px) {
+           .clock {
+               width: 35rem;
+           }
+           #hour {
+               height: 15px;
+           }
+}
+
 @media screen and (max-width: 810px) {
     .clock {
         width: 98vw;
@@ -132,3 +150,4 @@ footer {
         width: 46%;
     }
 }
+
